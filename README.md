@@ -1,1 +1,1 @@
-Este repocitorio contiene los challenge a desarrollar en Alura/Oracle One
+Este repositorio contiene los challenge a desarrollar en Alura/Oracle One
