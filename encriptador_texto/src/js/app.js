@@ -14,7 +14,9 @@ let codes={
 
 
 btnEncrypt.addEventListener('click',()=>{
-    alert
+    let toEncrypt = encryptText(textToEncrypt.value, codes)
+    textEncrypted.innerHTML = toEncrypt
+    alert(toEncrypt)
 })
     
 //Funcion de encriptacion
@@ -25,9 +27,6 @@ function encryptText(texto, codes) {
     });
 }
 
-const texto = "Hola Mundo";
-
-const resultado = encryptText(texto, codes);
 //Funcion encriptar 
 function decryptText(textoModificado, valores) {
     const valoresInvertidos = {};
@@ -39,7 +38,3 @@ function decryptText(textoModificado, valores) {
     });
 }
 
-const textoModificado =  decryptText(resultado, codes);
-
-alert(resultado)
-alert(textoModificado)
