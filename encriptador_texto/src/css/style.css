@@ -1,0 +1,52 @@
+*{
+    
+    line-height: 150%;
+    font-size: 26px;
+}
+
+body{
+    background: rgba(239, 230, 239, 0.267);
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 250px;    
+}
+
+.textEncrypt{
+    border: none;
+    color: #0A3871;
+    margin-top: 10px;
+    text-transform: lowercase;
+}
+
+.textEncrypted{
+    border: none;
+    color: #0A3871;
+    margin-top: 10px;
+    margin-left: 90px;
+    text-transform: lowercase;
+}
+
+.btnCoppy{
+    
+}
+
+.btnEncrypt{
+    
+}
+
+.btnDecrypt{
+    
+}
+
+::placeholder{color: #0A3871;}
+.textEncrypt:focus{outline: none;}
+
